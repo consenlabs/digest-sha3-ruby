@@ -1,0 +1,134 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/d7f79aa/
+.phony	Makefile	/^.phony: all clean test$/;"	t
+ALIGN	ext/digest/KeccakSponge.h	/^#define ALIGN /;"	d
+ALIGN	ext/digest/KeccakSponge.h	/^#define ALIGN$/;"	d
+Absorb	ext/digest/KeccakSponge.c	/^int Absorb(spongeState *state, const unsigned char *data, unsigned long long databitlen)$/;"	f	typeref:typename:int
+AbsorbQueue	ext/digest/KeccakSponge.c	/^void AbsorbQueue(spongeState *state)$/;"	f	typeref:typename:void
+BAD_HASHLEN	ext/digest/KeccakNISTInterface.h	/^typedef enum { SUCCESS = 0, FAIL = 1, BAD_HASHLEN = 2 } HashReturn;$/;"	e	enum:__anon52f84f5b0103
+BitSequence	ext/digest/KeccakNISTInterface.h	/^typedef unsigned char BitSequence;$/;"	t	typeref:typename:unsigned char
+DEFAULT_DIGEST_LEN	ext/digest/sha3.c	/^#define DEFAULT_DIGEST_LEN /;"	d	file:
+DataLength	ext/digest/KeccakNISTInterface.h	/^typedef unsigned long long DataLength;$/;"	t	typeref:typename:unsigned long long
+Digest	lib/digest/sha3/version.rb	/^module Digest$/;"	m
+FAIL	ext/digest/KeccakNISTInterface.h	/^typedef enum { SUCCESS = 0, FAIL = 1, BAD_HASHLEN = 2 } HashReturn;$/;"	e	enum:__anon52f84f5b0103
+Final	ext/digest/KeccakNISTInterface.c	/^HashReturn Final(hashState *state, BitSequence *hashval)$/;"	f	typeref:typename:HashReturn
+Hash	ext/digest/KeccakNISTInterface.c	/^HashReturn Hash(int hashbitlen, const BitSequence *data, DataLength databitlen, BitSequence *has/;"	f	typeref:typename:HashReturn
+HashReturn	ext/digest/KeccakNISTInterface.h	/^typedef enum { SUCCESS = 0, FAIL = 1, BAD_HASHLEN = 2 } HashReturn;$/;"	t	typeref:enum:__anon52f84f5b0103
+IS_BIG_ENDIAN	ext/digest/brg_endian.h	/^#define IS_BIG_ENDIAN /;"	d
+IS_LITTLE_ENDIAN	ext/digest/brg_endian.h	/^#define IS_LITTLE_ENDIAN /;"	d
+Init	ext/digest/KeccakNISTInterface.c	/^HashReturn Init(hashState *state, int hashbitlen)$/;"	f	typeref:typename:HashReturn
+InitSponge	ext/digest/KeccakSponge.c	/^int InitSponge(spongeState *state, unsigned int rate, unsigned int capacity)$/;"	f	typeref:typename:int
+Init_sha3	ext/digest/sha3.c	/^Init_sha3() {$/;"	f	typeref:typename:void
+KeccakAbsorb	ext/digest/KeccakF-1600-reference.c	/^void KeccakAbsorb(unsigned char *state, const unsigned char *data, unsigned int laneCount)$/;"	f	typeref:typename:void
+KeccakAbsorb1024bits	ext/digest/KeccakF-1600-reference.c	/^void KeccakAbsorb1024bits(unsigned char *state, const unsigned char *data)$/;"	f	typeref:typename:void
+KeccakAbsorb1088bits	ext/digest/KeccakF-1600-reference.c	/^void KeccakAbsorb1088bits(unsigned char *state, const unsigned char *data)$/;"	f	typeref:typename:void
+KeccakAbsorb1152bits	ext/digest/KeccakF-1600-reference.c	/^void KeccakAbsorb1152bits(unsigned char *state, const unsigned char *data)$/;"	f	typeref:typename:void
+KeccakAbsorb1344bits	ext/digest/KeccakF-1600-reference.c	/^void KeccakAbsorb1344bits(unsigned char *state, const unsigned char *data)$/;"	f	typeref:typename:void
+KeccakAbsorb576bits	ext/digest/KeccakF-1600-reference.c	/^void KeccakAbsorb576bits(unsigned char *state, const unsigned char *data)$/;"	f	typeref:typename:void
+KeccakAbsorb832bits	ext/digest/KeccakF-1600-reference.c	/^void KeccakAbsorb832bits(unsigned char *state, const unsigned char *data)$/;"	f	typeref:typename:void
+KeccakExtract	ext/digest/KeccakF-1600-reference.c	/^void KeccakExtract(const unsigned char *state, unsigned char *data, unsigned int laneCount)$/;"	f	typeref:typename:void
+KeccakExtract1024bits	ext/digest/KeccakF-1600-reference.c	/^void KeccakExtract1024bits(const unsigned char *state, unsigned char *data)$/;"	f	typeref:typename:void
+KeccakInitialize	ext/digest/KeccakF-1600-reference.c	/^void KeccakInitialize()$/;"	f	typeref:typename:void
+KeccakInitializeRhoOffsets	ext/digest/KeccakF-1600-reference.c	/^void KeccakInitializeRhoOffsets()$/;"	f	typeref:typename:void
+KeccakInitializeRoundConstants	ext/digest/KeccakF-1600-reference.c	/^void KeccakInitializeRoundConstants()$/;"	f	typeref:typename:void
+KeccakInitializeState	ext/digest/KeccakF-1600-reference.c	/^void KeccakInitializeState(unsigned char *state)$/;"	f	typeref:typename:void
+KeccakMaximumRate	ext/digest/KeccakSponge.h	/^#define KeccakMaximumRate /;"	d
+KeccakMaximumRateInBytes	ext/digest/KeccakSponge.h	/^#define KeccakMaximumRateInBytes /;"	d
+KeccakPermutation	ext/digest/KeccakF-1600-reference.c	/^void KeccakPermutation(unsigned char *state)$/;"	f	typeref:typename:void
+KeccakPermutationAfterXor	ext/digest/KeccakF-1600-reference.c	/^void KeccakPermutationAfterXor(unsigned char *state, const unsigned char *data, unsigned int dat/;"	f	typeref:typename:void
+KeccakPermutationOnWords	ext/digest/KeccakF-1600-reference.c	/^void KeccakPermutationOnWords(UINT64 *state)$/;"	f	typeref:typename:void
+KeccakPermutationSize	ext/digest/KeccakSponge.h	/^#define KeccakPermutationSize /;"	d
+KeccakPermutationSizeInBytes	ext/digest/KeccakSponge.h	/^#define KeccakPermutationSizeInBytes /;"	d
+KeccakRhoOffsets	ext/digest/KeccakF-1600-reference.c	/^unsigned int KeccakRhoOffsets[nrLanes];$/;"	v	typeref:typename:unsigned int[]
+KeccakRoundConstants	ext/digest/KeccakF-1600-reference.c	/^UINT64 KeccakRoundConstants[nrRounds];$/;"	v	typeref:typename:UINT64[]
+LFSR86540	ext/digest/KeccakF-1600-reference.c	/^int LFSR86540(UINT8 *LFSR)$/;"	f	typeref:typename:int
+MAX_DIGEST_SIZE	ext/digest/sha3.c	/^#define MAX_DIGEST_SIZE /;"	d	file:
+PLATFORM_BYTE_ORDER	ext/digest/brg_endian.h	/^#    define PLATFORM_BYTE_ORDER /;"	d
+PLATFORM_BYTE_ORDER	ext/digest/brg_endian.h	/^#  define PLATFORM_BYTE_ORDER /;"	d
+PadAndSwitchToSqueezingPhase	ext/digest/KeccakSponge.c	/^void PadAndSwitchToSqueezingPhase(spongeState *state)$/;"	f	typeref:typename:void
+ProvideFast1024	ext/digest/KeccakF-1600-int-set.h	/^#define ProvideFast1024$/;"	d
+ProvideFast1088	ext/digest/KeccakF-1600-int-set.h	/^#define ProvideFast1088$/;"	d
+ProvideFast1152	ext/digest/KeccakF-1600-int-set.h	/^#define ProvideFast1152$/;"	d
+ProvideFast1344	ext/digest/KeccakF-1600-int-set.h	/^#define ProvideFast1344$/;"	d
+ProvideFast576	ext/digest/KeccakF-1600-int-set.h	/^#define ProvideFast576$/;"	d
+ProvideFast832	ext/digest/KeccakF-1600-int-set.h	/^#define ProvideFast832$/;"	d
+ROL64	ext/digest/KeccakF-1600-reference.c	/^#define ROL64(/;"	d	file:
+SHA3	lib/digest/sha3/version.rb	/^  class SHA3$/;"	c	module:Digest
+SHA3Tests	test/generate_tests.rb	/^    class SHA3Tests < Test::Unit::TestCase$/;"	c	method:generate
+SHA3UsageTest	test/test_usage.rb	/^class SHA3UsageTest < Test::Unit::TestCase$/;"	c
+SUCCESS	ext/digest/KeccakNISTInterface.h	/^typedef enum { SUCCESS = 0, FAIL = 1, BAD_HASHLEN = 2 } HashReturn;$/;"	e	enum:__anon52f84f5b0103
+Squeeze	ext/digest/KeccakSponge.c	/^int Squeeze(spongeState *state, unsigned char *output, unsigned long long outputLength)$/;"	f	typeref:typename:int
+UINT64	ext/digest/KeccakF-1600-reference.c	/^typedef unsigned long long int UINT64;$/;"	t	typeref:typename:unsigned long long int	file:
+UINT8	ext/digest/KeccakF-1600-reference.c	/^typedef unsigned char UINT8;$/;"	t	typeref:typename:unsigned char	file:
+Update	ext/digest/KeccakNISTInterface.c	/^HashReturn Update(hashState *state, const BitSequence *data, DataLength databitlen)$/;"	f	typeref:typename:HashReturn
+Version	lib/digest/sha3/version.rb	/^    module Version$/;"	m	class:Digest.SHA3
+_BRG_ENDIAN_H	ext/digest/brg_endian.h	/^#define _BRG_ENDIAN_H$/;"	d
+_KeccakNISTInterface_h_	ext/digest/KeccakNISTInterface.h	/^#define _KeccakNISTInterface_h_$/;"	d
+_KeccakPermutationInterface_h_	ext/digest/KeccakF-1600-interface.h	/^#define _KeccakPermutationInterface_h_$/;"	d
+_KeccakSponge_h_	ext/digest/KeccakSponge.h	/^#define _KeccakSponge_h_$/;"	d
+__anon52f84f5b0103	ext/digest/KeccakNISTInterface.h	/^typedef enum { SUCCESS = 0, FAIL = 1, BAD_HASHLEN = 2 } HashReturn;$/;"	g
+_displayIntermediateValues_h_	ext/digest/displayIntermediateValues.h	/^#define _displayIntermediateValues_h_$/;"	d
+all	Makefile	/^all: ext\/digest\/Makefile$/;"	t
+bitsAvailableForSqueezing	ext/digest/KeccakSponge.h	/^    unsigned int bitsAvailableForSqueezing;$/;"	m	struct:spongeStateStruct	typeref:typename:unsigned int
+bitsInQueue	ext/digest/KeccakSponge.h	/^    unsigned int bitsInQueue;$/;"	m	struct:spongeStateStruct	typeref:typename:unsigned int
+capacity	ext/digest/KeccakSponge.h	/^    unsigned int capacity;$/;"	m	struct:spongeStateStruct	typeref:typename:unsigned int
+chi	ext/digest/KeccakF-1600-reference.c	/^void chi(UINT64 *A)$/;"	f	typeref:typename:void
+clean	Makefile	/^clean:$/;"	t
+dataQueue	ext/digest/KeccakSponge.h	/^    ALIGN unsigned char dataQueue[KeccakMaximumRateInBytes];$/;"	m	struct:spongeStateStruct	typeref:typename:ALIGN unsigned char[]
+displayBits	ext/digest/displayIntermediateValues.c	/^void displayBits(int level, const char *text, const unsigned char *data, unsigned int size, int /;"	f	typeref:typename:void
+displayBytes	ext/digest/displayIntermediateValues.c	/^void displayBytes(int level, const char *text, const unsigned char *bytes, unsigned int size)$/;"	f	typeref:typename:void
+displayLevel	ext/digest/displayIntermediateValues.c	/^int displayLevel = 0;$/;"	v	typeref:typename:int
+displayRhoOffsets	ext/digest/KeccakF-1600-reference.c	/^void displayRhoOffsets(FILE *f)$/;"	f	typeref:typename:void
+displayRoundConstants	ext/digest/KeccakF-1600-reference.c	/^void displayRoundConstants(FILE *f)$/;"	f	typeref:typename:void
+displayRoundNumber	ext/digest/displayIntermediateValues.c	/^void displayRoundNumber(int level, unsigned int i)$/;"	f	typeref:typename:void
+displaySetIntermediateValueFile	ext/digest/displayIntermediateValues.c	/^void displaySetIntermediateValueFile(FILE *f)$/;"	f	typeref:typename:void
+displaySetLevel	ext/digest/displayIntermediateValues.c	/^void displaySetLevel(int level)$/;"	f	typeref:typename:void
+displayStateAs32bitWords	ext/digest/displayIntermediateValues.c	/^void displayStateAs32bitWords(int level, const char *text, const unsigned int *state)$/;"	f	typeref:typename:void
+displayStateAs64bitWords	ext/digest/displayIntermediateValues.c	/^void displayStateAs64bitWords(int level, const char *text, const unsigned long long int *state)$/;"	f	typeref:typename:void
+displayStateAsBytes	ext/digest/displayIntermediateValues.c	/^void displayStateAsBytes(int level, const char *text, const unsigned char *state)$/;"	f	typeref:typename:void
+displayText	ext/digest/displayIntermediateValues.c	/^void displayText(int level, const char *text)$/;"	f	typeref:typename:void
+ext/digest/Makefile	Makefile	/^ext\/digest\/Makefile: ext\/digest\/extconf.rb$/;"	t
+fixedOutputLength	ext/digest/KeccakSponge.h	/^    unsigned int fixedOutputLength;$/;"	m	struct:spongeStateStruct	typeref:typename:unsigned int
+fromBytesToWords	ext/digest/KeccakF-1600-reference.c	/^void fromBytesToWords(UINT64 *stateAsWords, const unsigned char *state)$/;"	f	typeref:typename:void
+fromWordsToBytes	ext/digest/KeccakF-1600-reference.c	/^void fromWordsToBytes(unsigned char *state, const UINT64 *stateAsWords)$/;"	f	typeref:typename:void
+generate	test/generate_tests.rb	/^def generate$/;"	f
+hashState	ext/digest/KeccakNISTInterface.h	/^typedef spongeState hashState;$/;"	t	typeref:typename:spongeState
+index	ext/digest/KeccakF-1600-reference.c	/^#define index(/;"	d	file:
+init	test/test_usage.rb	/^  def init(hashsize = 512)$/;"	f	class:SHA3UsageTest
+intermediateValueFile	ext/digest/displayIntermediateValues.c	/^FILE *intermediateValueFile = 0;$/;"	v	typeref:typename:FILE *
+iota	ext/digest/KeccakF-1600-reference.c	/^void iota(UINT64 *A, unsigned int indexRound)$/;"	f	typeref:typename:void
+nrLanes	ext/digest/KeccakF-1600-reference.c	/^#define nrLanes /;"	d	file:
+nrRounds	ext/digest/KeccakF-1600-reference.c	/^#define nrRounds /;"	d	file:
+pi	ext/digest/KeccakF-1600-reference.c	/^void pi(UINT64 *A)$/;"	f	typeref:typename:void
+rate	ext/digest/KeccakSponge.h	/^    unsigned int rate;$/;"	m	struct:spongeStateStruct	typeref:typename:unsigned int
+rb_sha3_block_length	ext/digest/sha3.c	/^rb_sha3_block_length(VALUE self) {$/;"	f	typeref:typename:VALUE	file:
+rb_sha3_digest_length	ext/digest/sha3.c	/^rb_sha3_digest_length(VALUE self) {$/;"	f	typeref:typename:VALUE	file:
+rb_sha3_finish	ext/digest/sha3.c	/^rb_sha3_finish(VALUE self) {$/;"	f	typeref:typename:VALUE	file:
+rb_sha3_initialize	ext/digest/sha3.c	/^rb_sha3_initialize(int argc, VALUE *argv, VALUE self) {$/;"	f	typeref:typename:VALUE	file:
+rho	ext/digest/KeccakF-1600-reference.c	/^void rho(UINT64 *A)$/;"	f	typeref:typename:void
+sha3	ext/digest/sha3.c	/^static rb_digest_metadata_t sha3 = {$/;"	v	typeref:typename:rb_digest_metadata_t	file:
+sha3_finish_func	ext/digest/sha3.c	/^sha3_finish_func(hashState *ctx, unsigned char *digest) {$/;"	f	typeref:typename:int	file:
+sha3_init	ext/digest/sha3.c	/^sha3_init(hashState *ctx, size_t bitlen) {$/;"	f	typeref:typename:void	file:
+sha3_init_func	ext/digest/sha3.c	/^sha3_init_func(hashState *ctx) {$/;"	f	typeref:typename:int	file:
+sha3_update_func	ext/digest/sha3.c	/^sha3_update_func(hashState *ctx, unsigned char *str, size_t len) {$/;"	f	typeref:typename:void	file:
+spongeState	ext/digest/KeccakSponge.h	/^} spongeState;$/;"	t	typeref:struct:spongeStateStruct
+spongeStateStruct	ext/digest/KeccakSponge.h	/^ALIGN typedef struct spongeStateStruct {$/;"	s
+squeezing	ext/digest/KeccakSponge.h	/^    int squeezing;$/;"	m	struct:spongeStateStruct	typeref:typename:int
+state	ext/digest/KeccakSponge.h	/^    ALIGN unsigned char state[KeccakPermutationSizeInBytes];$/;"	m	struct:spongeStateStruct	typeref:typename:ALIGN unsigned char[]
+test	Makefile	/^test: all test\/test_vectors.rb$/;"	t
+test/test_vectors.rb	Makefile	/^test\/test_vectors.rb: test\/generate_tests.rb test\/data\/*$/;"	t
+test_	test/generate_tests.rb	/^            def test_#{name}_#{length}$/;"	F	class:generate.SHA3Tests
+test_class_methods	test/test_usage.rb	/^  def test_class_methods$/;"	f	class:SHA3UsageTest
+test_copy	test/test_usage.rb	/^  def test_copy$/;"	f	class:SHA3UsageTest
+test_empty_224	test/test_usage.rb	/^  def test_empty_224$/;"	f	class:SHA3UsageTest
+test_empty_256	test/test_usage.rb	/^  def test_empty_256$/;"	f	class:SHA3UsageTest
+test_empty_384	test/test_usage.rb	/^  def test_empty_384$/;"	f	class:SHA3UsageTest
+test_empty_512	test/test_usage.rb	/^  def test_empty_512$/;"	f	class:SHA3UsageTest
+test_update	test/test_usage.rb	/^  def test_update$/;"	f	class:SHA3UsageTest
+test_updates	test/test_usage.rb	/^  def test_updates$/;"	f	class:SHA3UsageTest
+theta	ext/digest/KeccakF-1600-reference.c	/^void theta(UINT64 *A)$/;"	f	typeref:typename:void
